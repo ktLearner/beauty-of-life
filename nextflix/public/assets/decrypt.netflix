@@ -1,0 +1,176 @@
+import sys
+
+def funky_decrypt(word):
+    decrypted = ''
+    for char in word:
+        decrypted += chr(ord(char) - 1)  #1
+    return decrypted
+
+def surreal_decryption(word):
+    decrypted = ''
+    for char in word:
+        decrypted += chr(((ord(char) + 10) * 2) % 100)        #3
+    return decrypted
+
+def strange_decryption(word):
+    decrypted = ''
+    for char in word:                       #4
+        decrypted += chr(ord(char) + 3)
+    return decrypted[::-1]
+
+def obscure_decryption(word):
+    decrypted = ''
+    for char in word:
+        decrypted += chr(ord(char) ^ 42)            #2
+    return decrypted
+
+
+
+def main():
+    encrypted_word =  ""          #where should i find it        
+    print("invalid")
+   
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# encryped word.uppercase()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#my output is what u want
